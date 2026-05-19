@@ -1,5 +1,8 @@
 package tn.naizo.jauml.mixin;
 
+import net.minecraft.client.Minecraft;
+import org.spongepowered.asm.mixin.Mixin;
+
+@Mixin(Minecraft.class)
 public class MixinMinecraft {
-    // Minimal stub mixin class to satisfy build; mixin behavior defined at runtime.
 }
